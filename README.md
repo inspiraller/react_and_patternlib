@@ -1,5 +1,5 @@
 # React setup for separate pattern library adjacent to the react project.
-It is a generic pattern library to be used with any javascript framework of your choice.
+It is a vanilla setup to keep the common objects adjacent to the project
 
 # Getting started
 clone this repo inside your project
