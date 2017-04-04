@@ -1,0 +1,48 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "A sample website built in different frameworks. This is about react",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack --p --config react_project/webpack.config",
+    "dev": "webpack-dev-server --port 3000 --config react_project/webpack.config",
+    "patternlib": "webpack-dev-server --port 3001 --config patternlib/webpack.config",
+    "start": "npm-run-all -p -r dev patternlib"
+  },
+  "author": "Steve Tomlin",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-do-expressions": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.7.0",
+    "node-uuid": "^1.4.7",
+    "npm-run-all": "^4.0.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.2",
+    "react-router-redux": "^4.0.5",
+    "react-tap-event-plugin": "^2.0.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^1.3.0",
+    "webpack-dev-server": "^1.14.1",
+    "redux-devtools": "^3.3.1"
+  }
+}
