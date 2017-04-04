@@ -2,7 +2,8 @@
 It is a vanilla setup to keep the common objects adjacent to the project
 
 # Getting started
-clone this repo inside your project
+clone this repo on your computer
+npm install
 
 # To run the pattern library
 npm run patternlib
